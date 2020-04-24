@@ -2,12 +2,12 @@ package me.jwotoole9141.sugeng;
 
 import java.util.ArrayList;
 import java.util.Collections;
-import java.util.HashSet;
 import java.util.LinkedHashSet;
 import java.util.List;
 import java.util.Map;
 import java.util.Objects;
 import java.util.Set;
+import java.util.stream.Collectors;
 
 /**
  * An assortment of classes and functions for performing affinity analysis calculations.
@@ -31,24 +31,23 @@ public class AffinityAnalysis {
   public static <T> Set<Result<T>> analyze(
       Map<Implication<T>, Integer> implications, Map<Set<T>, Integer> grams, int numActions) {
 
-    Set<Result<T>> results = new HashSet<>();
+    return implications.keySet().stream().map(implication -> {
 
-    for (Implication<T> implication : implications.keySet()) {
       int implicationCount = implications.get(implication);
       int groupCount = grams.get(implication.getUnion());
 
-            /* confidence = ratio of "times item was bought" to  "times group was bought"
-                 it represents how often an item exists in its group and not outside of it
+      /* confidence = ratio of "times item was bought" to  "times group was bought"
+           it represents how often an item exists in its group and not outside of it
 
-               support = ratio of "times group was bought" to "number of transactions"
-                 it represents how likely the item was bought at all */
+         support = ratio of "times group was bought" to "number of transactions"
+           it represents how likely the item was bought at all */
 
       double confidence = implicationCount / (double) groupCount;
       double support = groupCount / (double) numActions;
 
-      results.add(new Result<>(implication, confidence, support));
-    }
-    return results;
+      return new Result<>(implication, confidence, support);
+
+    }).collect(Collectors.toSet());
   }
 
   /**

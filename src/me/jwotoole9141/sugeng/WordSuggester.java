@@ -9,6 +9,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 import java.util.function.Function;
+import java.util.stream.Collectors;
 import java.util.stream.Stream;
 import me.jwotoole9141.sugeng.AffinityAnalysis.Implication;
 import me.jwotoole9141.sugeng.AffinityAnalysis.Result;
@@ -176,15 +177,12 @@ public class WordSuggester extends BagOfWords {
     // find all the results with a matching premise & sufficient confidence level
     //  and add their conclusion as a suggestion result
 
-    List<String> results = new ArrayList<>();
-    for (Result<String> suggestion : analysis) {
-      if (NGRAM_COMPARATOR.compare(suggestion.getImplication().getPremise(), premise) == 0) {
+    List<String> results = analysis.stream()
+        .filter(r -> NGRAM_COMPARATOR.compare(premise, r.getImplication().getPremise()) == 0)
+        .filter(r -> r.getConfidence() > threshold)
+        .map(r -> r.getImplication().getConclusion())
+        .collect(Collectors.toList());
 
-        if (suggestion.getConfidence() > threshold) {
-          results.add(suggestion.getImplication().getConclusion());
-        }
-      }
-    }
     // pad the suggestion results if there weren't enough
 
     Iterator<String> iter = baseSuggestions.iterator();
