@@ -1,0 +1,133 @@
+"C:\Program Files\Java\jdk-12.0.1\bin\java.exe" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2019.3.4\lib\idea_rt.jar=61837:C:\Program Files\JetBrains\IntelliJ IDEA 2019.3.4\bin" -Dfile.encoding=UTF-8 -classpath "C:\Users\jo39t\OneDrive - Florida Gulf Coast University\Semesters\2020 Spring\COP3710\Projects\WordSuggestionEngine\out\production\WordSuggestionEngine" me.jwotoole9141.sugeng.Main
+Enter some text to see available suggestions.
+(leave blank to exit)
+>>> dad
+["TMI", "the", "this"]
+
+Enter some text to see available suggestions.
+(leave blank to exit)
+>>> lunch
+["LMK", "the", "this"]
+
+Enter some text to see available suggestions.
+(leave blank to exit)
+>>> k
+["sounds", "okay", "sweet"]
+
+Enter some text to see available suggestions.
+(leave blank to exit)
+>>>
+The affinity analysis calculations:
+- Result{implication=Implication{premise=[believe], conclusion=that}, confidence=1.0, support=0.004032258064516129}
+- Result{implication=Implication{premise=[still], conclusion=have}, confidence=1.0, support=0.004032258064516129}
+- Result{implication=Implication{premise=[really], conclusion=LOL}, confidence=1.0, support=0.04435483870967742}
+- Result{implication=Implication{premise=[I], conclusion=see}, confidence=1.0, support=0.004032258064516129}
+- Result{implication=Implication{premise=[get], conclusion=for}, confidence=1.0, support=0.028225806451612902}
+- Result{implication=Implication{premise=[I], conclusion=will}, confidence=1.0, support=0.004032258064516129}
+- Result{implication=Implication{premise=[K], conclusion=sounds}, confidence=1.0, support=0.07661290322580645}
+- Result{implication=Implication{premise=[finish], conclusion=your}, confidence=1.0, support=0.036290322580645164}
+- Result{implication=Implication{premise=[to], conclusion=school}, confidence=1.0, support=0.020161290322580645}
+- Result{implication=Implication{premise=[to], conclusion=order}, confidence=1.0, support=0.056451612903225805}
+- Result{implication=Implication{premise=[You], conclusion=going}, confidence=1.0, support=0.1774193548387097}
+- Result{implication=Implication{premise=[to], conclusion=lunch}, confidence=1.0, support=0.06048387096774194}
+- Result{implication=Implication{premise=[in], conclusion=a}, confidence=1.0, support=0.004032258064516129}
+- Result{implication=Implication{premise=[you], conclusion=finish}, confidence=1.0, support=0.036290322580645164}
+- Result{implication=Implication{premise=[Did], conclusion=you}, confidence=1.0, support=0.06451612903225806}
+- Result{implication=Implication{premise=[for], conclusion=lunch}, confidence=1.0, support=0.004032258064516129}
+- Result{implication=Implication{premise=[homework], conclusion=yet}, confidence=1.0, support=0.036290322580645164}
+- Result{implication=Implication{premise=[Gross], conclusion=Mom}, confidence=1.0, support=0.004032258064516129}
+- Result{implication=Implication{premise=[know], conclusion=YOLO}, confidence=1.0, support=0.004032258064516129}
+- Result{implication=Implication{premise=[you], conclusion=lunch}, confidence=1.0, support=0.056451612903225805}
+- Result{implication=Implication{premise=[what], conclusion=you}, confidence=1.0, support=0.004032258064516129}
+- Result{implication=Implication{premise=[for], conclusion=number}, confidence=1.0, support=0.028225806451612902}
+- Result{implication=Implication{premise=[at], conclusion=work}, confidence=1.0, support=0.028225806451612902}
+- Result{implication=Implication{premise=[whats], conclusion=up}, confidence=1.0, support=0.004032258064516129}
+- Result{implication=Implication{premise=[you], conclusion=finished}, confidence=1.0, support=0.004032258064516129}
+- Result{implication=Implication{premise=[be], conclusion=there}, confidence=1.0, support=0.004032258064516129}
+- Result{implication=Implication{premise=[finished], conclusion=your}, confidence=1.0, support=0.028225806451612902}
+- Result{implication=Implication{premise=[getting], conclusion=lunch}, confidence=1.0, support=0.004032258064516129}
+- Result{implication=Implication{premise=[Gross], conclusion=Dad}, confidence=1.0, support=0.05241935483870968}
+- Result{implication=Implication{premise=[you], conclusion=still}, confidence=1.0, support=0.004032258064516129}
+- Result{implication=Implication{premise=[what], conclusion=did}, confidence=1.0, support=0.028225806451612902}
+- Result{implication=Implication{premise=[Are], conclusion=you}, confidence=1.0, support=0.13306451612903225}
+- Result{implication=Implication{premise=[K], conclusion=okay}, confidence=1.0, support=0.004032258064516129}
+- Result{implication=Implication{premise=[doing], conclusion=this}, confidence=1.0, support=0.004032258064516129}
+- Result{implication=Implication{premise=[you], conclusion=at}, confidence=1.0, support=0.05241935483870968}
+- Result{implication=Implication{premise=[mmhmm], conclusion=SMH}, confidence=1.0, support=0.004032258064516129}
+- Result{implication=Implication{premise=[K], conclusion=sweet}, confidence=1.0, support=0.036290322580645164}
+- Result{implication=Implication{premise=[dude], conclusion=finished}, confidence=1.0, support=0.028225806451612902}
+- Result{implication=Implication{premise=[you], conclusion=know}, confidence=1.0, support=0.004032258064516129}
+- Result{implication=Implication{premise=[finished], conclusion=with}, confidence=1.0, support=0.004032258064516129}
+- Result{implication=Implication{premise=[huh], conclusion=IDK}, confidence=1.0, support=0.004032258064516129}
+- Result{implication=Implication{premise=[Where], conclusion=you}, confidence=1.0, support=0.0846774193548387}
+- Result{implication=Implication{premise=[going], conclusion=to}, confidence=1.0, support=0.17338709677419356}
+- Result{implication=Implication{premise=[how], conclusion=are}, confidence=1.0, support=0.012096774193548387}
+- Result{implication=Implication{premise=[want], conclusion=to}, confidence=1.0, support=0.016129032258064516}
+- Result{implication=Implication{premise=[to], conclusion=work}, confidence=1.0, support=0.024193548387096774}
+- Result{implication=Implication{premise=[you], conclusion=doing}, confidence=1.0, support=0.012096774193548387}
+- Result{implication=Implication{premise=[where], conclusion=are}, confidence=1.0, support=0.004032258064516129}
+- Result{implication=Implication{premise=[ILY], conclusion=sweetie}, confidence=1.0, support=0.004032258064516129}
+- Result{implication=Implication{premise=[are], conclusion=the}, confidence=1.0, support=0.004032258064516129}
+- Result{implication=Implication{premise=[hello], conclusion=sweetie}, confidence=1.0, support=0.004032258064516129}
+- Result{implication=Implication{premise=[a], conclusion=bit}, confidence=1.0, support=0.004032258064516129}
+- Result{implication=Implication{premise=[me], conclusion=at}, confidence=1.0, support=0.028225806451612902}
+- Result{implication=Implication{premise=[bye], conclusion=ttyl}, confidence=1.0, support=0.04435483870967742}
+- Result{implication=Implication{premise=[dude], conclusion=ROTFL}, confidence=1.0, support=0.004032258064516129}
+- Result{implication=Implication{premise=[EWW], conclusion=Gross}, confidence=1.0, support=0.056451612903225805}
+- Result{implication=Implication{premise=[to], conclusion=the}, confidence=1.0, support=0.024193548387096774}
+- Result{implication=Implication{premise=[weekend], conclusion=LMK}, confidence=1.0, support=0.004032258064516129}
+- Result{implication=Implication{premise=[meet], conclusion=me}, confidence=1.0, support=0.028225806451612902}
+- Result{implication=Implication{premise=[order], conclusion=for}, confidence=1.0, support=0.004032258064516129}
+- Result{implication=Implication{premise=[I], conclusion=cannot}, confidence=1.0, support=0.004032258064516129}
+- Result{implication=Implication{premise=[you], conclusion=getting}, confidence=1.0, support=0.004032258064516129}
+- Result{implication=Implication{premise=[On], conclusion=it}, confidence=1.0, support=0.004032258064516129}
+- Result{implication=Implication{premise=[you], conclusion=there}, confidence=1.0, support=0.004032258064516129}
+- Result{implication=Implication{premise=[the], conclusion=game}, confidence=1.0, support=0.024193548387096774}
+- Result{implication=Implication{premise=[two], conclusion=on}, confidence=1.0, support=0.028225806451612902}
+- Result{implication=Implication{premise=[What], conclusion=do}, confidence=1.0, support=0.016129032258064516}
+- Result{implication=Implication{premise=[you], conclusion=got}, confidence=1.0, support=0.004032258064516129}
+- Result{implication=Implication{premise=[cannot], conclusion=believe}, confidence=1.0, support=0.004032258064516129}
+- Result{implication=Implication{premise=[Do], conclusion=you}, confidence=1.0, support=0.07661290322580645}
+- Result{implication=Implication{premise=[there], conclusion=in}, confidence=1.0, support=0.004032258064516129}
+- Result{implication=Implication{premise=[with], conclusion=your}, confidence=1.0, support=0.004032258064516129}
+- Result{implication=Implication{premise=[oh], conclusion=NVM}, confidence=1.0, support=0.004032258064516129}
+- Result{implication=Implication{premise=[order], conclusion=you}, confidence=1.0, support=0.056451612903225805}
+- Result{implication=Implication{premise=[Yeah], conclusion=why}, confidence=1.0, support=0.004032258064516129}
+- Result{implication=Implication{premise=[Leaving], conclusion=now}, confidence=1.0, support=0.04435483870967742}
+- Result{implication=Implication{premise=[well], conclusion=you}, confidence=1.0, support=0.004032258064516129}
+- Result{implication=Implication{premise=[plans], conclusion=LMK}, confidence=1.0, support=0.008064516129032258}
+- Result{implication=Implication{premise=[us], conclusion=to}, confidence=1.0, support=0.056451612903225805}
+- Result{implication=Implication{premise=[lol], conclusion=I}, confidence=1.0, support=0.004032258064516129}
+- Result{implication=Implication{premise=[this], conclusion=weekend}, confidence=1.0, support=0.004032258064516129}
+- Result{implication=Implication{premise=[see], conclusion=you}, confidence=1.0, support=0.008064516129032258}
+- Result{implication=Implication{premise=[Mom], conclusion=TMI}, confidence=1.0, support=0.008064516129032258}
+- Result{implication=Implication{premise=[Hey], conclusion=meet}, confidence=1.0, support=0.028225806451612902}
+- Result{implication=Implication{premise=[going], conclusion=in}, confidence=1.0, support=0.004032258064516129}
+- Result{implication=Implication{premise=[my], conclusion=Way}, confidence=1.0, support=0.004032258064516129}
+- Result{implication=Implication{premise=[ILY], conclusion=honey}, confidence=1.0, support=0.004032258064516129}
+- Result{implication=Implication{premise=[really], conclusion=SMH}, confidence=1.0, support=0.004032258064516129}
+- Result{implication=Implication{premise=[dude], conclusion=IDK}, confidence=1.0, support=0.016129032258064516}
+- Result{implication=Implication{premise=[you], conclusion=later}, confidence=1.0, support=0.004032258064516129}
+- Result{implication=Implication{premise=[sounds], conclusion=cool}, confidence=1.0, support=0.08064516129032258}
+- Result{implication=Implication{premise=[the], conclusion=kids}, confidence=1.0, support=0.004032258064516129}
+- Result{implication=Implication{premise=[have], conclusion=that}, confidence=1.0, support=0.004032258064516129}
+- Result{implication=Implication{premise=[Dad], conclusion=TMI}, confidence=1.0, support=0.11693548387096774}
+- Result{implication=Implication{premise=[you], conclusion=get}, confidence=1.0, support=0.028225806451612902}
+- Result{implication=Implication{premise=[want], conclusion=us}, confidence=1.0, support=0.056451612903225805}
+- Result{implication=Implication{premise=[your], conclusion=homework}, confidence=1.0, support=0.0967741935483871}
+- Result{implication=Implication{premise=[on], conclusion=your}, confidence=1.0, support=0.028225806451612902}
+- Result{implication=Implication{premise=[bye], conclusion=see}, confidence=1.0, support=0.004032258064516129}
+- Result{implication=Implication{premise=[in], conclusion=the}, confidence=1.0, support=0.004032258064516129}
+- Result{implication=Implication{premise=[hello], conclusion=honey}, confidence=1.0, support=0.004032258064516129}
+- Result{implication=Implication{premise=[got], conclusion=plans}, confidence=1.0, support=0.004032258064516129}
+- Result{implication=Implication{premise=[you], conclusion=want}, confidence=1.0, support=0.07258064516129033}
+- Result{implication=Implication{premise=[On], conclusion=my}, confidence=1.0, support=0.004032258064516129}
+- Result{implication=Implication{premise=[to], conclusion=eat}, confidence=1.0, support=0.06048387096774194}
+- Result{implication=Implication{premise=[number], conclusion=two}, confidence=1.0, support=0.028225806451612902}
+- Result{implication=Implication{premise=[lunch], conclusion=LMK}, confidence=1.0, support=0.18951612903225806}
+- Result{implication=Implication{premise=[that], conclusion=game}, confidence=1.0, support=0.004032258064516129}
+- Result{implication=Implication{premise=[Oh], conclusion=I}, confidence=1.0, support=0.004032258064516129}
+- Result{implication=Implication{premise=[will], conclusion=see}, confidence=1.0, support=0.004032258064516129}
+- Result{implication=Implication{premise=[the], conclusion=order}, confidence=1.0, support=0.004032258064516129}
+
+Process finished with exit code 0
